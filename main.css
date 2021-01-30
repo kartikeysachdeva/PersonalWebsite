@@ -1,3 +1,37 @@
+/*Whatever gets defined as you go it gets overwritten
+Bottom intializations get priority over top...*/
+
 body{
     background:#999;  
+    font-family: arial;
 }
+
+h1, h2{
+    color: #666;
+}
+
+a{
+    color:blue; 
+}
+
+p{
+    background :#666; 
+    color:white; 
+    padding: 10px; 
+    /*adds border , if you do 2 arguments it will 2 for example 10 pixels to top and 0 pixels to bottom
+    padding:All; 
+    padding:TopBottom LeftRight; 
+    padding: Top Right Bottom Left; 
+    */ 
+}
+
+.secondary{
+    background=none; 
+    color:#777; 
+}
+
+#special{
+    background:red; 
+    color:blue; 
+}
+
