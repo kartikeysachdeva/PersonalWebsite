@@ -1,37 +1,89 @@
-/*Whatever gets defined as you go it gets overwritten
-Bottom intializations get priority over top...*/
-
-body{
-    background:#999;  
-    font-family: arial;
+body {
+	font-family: Georgia, serif;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
 }
 
-h1, h2{
-    color: #666;
+h1 {
+	font-size: 32px;
+    font-family: Palatino, 'Palatino Linotype', serif;
+    color: #2e69a3;
 }
 
-a{
-    color:blue; 
+h2 {
+	color: #ffffff;
+	font-size: 56px; 
 }
 
-p{
-    background :#666; 
-    color:white; 
-    padding: 10px; 
-    /*adds border , if you do 2 arguments it will 2 for example 10 pixels to top and 0 pixels to bottom
-    padding:All; 
-    padding:TopBottom LeftRight; 
-    padding: Top Right Bottom Left; 
-    */ 
+.hero {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  }
+
+.hero {
+	/*background-image: url('https://content.codecademy.com/projects/make-a-website/lesson-2/bg.jpg');*/
+	text-shadow: 0 2px #000000;
+	font-family: 'Trebuchet MS', 'Helvetica';
 }
 
-.secondary{
-    background=none; 
-    color:#777; 
+
+p {
+	color: #ffffff;
+	font-size: 2em;
 }
 
-#special{
-    background:red; 
-    color:blue; 
+.background{
+    width: 1920px; 
+    height: 1200px;
+    background-image: url(C:\Users\Atul\Documents\GitRepositories\PersonalWebsite\Background.png);
+    background-size: 100%;
+}
+.hero a {
+	color: #00FFAA;
+	font-size: 24px;
+	text-decoration: none;
 }
 
+#footer {
+	color: DarkSlateGray;
+	font-size: 16px;
+}
+
+
+
+/*
+rule: a list of CSS instructions for how to style a specific HTML element or group of HTML elements.
+
+
+selector: specifies exactly which HTML elements to style. Here h1 is the selector.
+
+
+properties and values: located inside the { } brackets, properties and values specify what aspect of the selector to style. In the diagram’s example, the color property is set to red, which will display all h1 elements in red.
+
+
+font-family
+One of the most effective ways to enhance the look and feel of a website is by changing the font. In CSS, font is managed using the font-family property:
+
+h1 {
+  font-family: Georgia, serif;
+}
+Above, the font-family property of the h1 selector is set to the value of Georgia, with serif as a fallback font. Fallback fonts are included in case a visitor’s web browser does not support the first font. Sometimes, more than one fallback font is included.
+
+In CSS, class selectors can be identified by a dot . followed by the class name, as seen below:
+
+In the CSS above, font-size is set to 60px. In CSS, size can be assigned in pixels (px), rems, or ems.
+
+pixel (px): Standard unit of measurement for sizing fonts and other HTML elements.
+
+
+rem: Represents the default font size for the web browser. 
+Rems can be used to ensure that HTML elements scale in proportion to each other on various web browsers and screen sizes.
+On most web browsers, 1rem is equivalent to 16px, 2rem is equivalent to 32px (a doubling), 3rem is equivalent to 48px (a tripling) and so on.
+
+
+em: A relative value that changes in proportion to the font-size of the element on which em is used. 
+Because font-size is an inherited property, this usually means the em value will change in proportion to the font-size of the parent element unless a font-size is explicitly set on the element on which em is used.
+For example, if a parent element has font-size: 20px;, child elements with font-size: 1em; would be equivalent to 20px. Child elements with font-size: 0.5em; would be equivalent to 10px (a halving) and so on.
+
+*/
