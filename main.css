@@ -34,9 +34,9 @@ p {
 }
 
 .background{
-    width: 1920px; 
-    height: 1200px;
-    background-image: url(C:\Users\Atul\Documents\GitRepositories\PersonalWebsite\Background.png);
+    width: 1500px; 
+    height: 900px;
+    background-image: url(C:/Users/Atul/Desktop/Background.png);
     background-size: 100%;
 }
 .hero a {
